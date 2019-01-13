@@ -30,7 +30,7 @@ def inject method (array)
     array.inject do |sum,x|
   sum + x
   end
-
+end
 
 def add_s(array)
   array.collect do |word|
