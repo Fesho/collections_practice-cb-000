@@ -31,6 +31,12 @@ def find_a(array)
   end
 end
 
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = "$"
+  end
+end
+
 def inject method (array)
     array.inject do |sum,x|
   sum + x
