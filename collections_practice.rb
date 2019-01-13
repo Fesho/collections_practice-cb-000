@@ -21,9 +21,9 @@ array[1], array[2] = array[2], array[1]
 end
 
 def reverse_array(array)
-
- array.sort.reverse
+  array.reverse
 end
+
 
 def find_a(array)
   array.find_all do |word|
