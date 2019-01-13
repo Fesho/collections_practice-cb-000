@@ -26,7 +26,10 @@ def reverse_array(array)
 end
 
 
-
+def inject method (array)
+    array.inject do |sum,x|
+  sum + x
+  end
 
 
 def add_s(array)
