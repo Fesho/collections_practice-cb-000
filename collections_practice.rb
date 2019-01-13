@@ -25,6 +25,11 @@ def reverse_array(array)
  array.sort.reverse
 end
 
+def find_a(array)
+  array.find_all do |word|
+    word[0] == "a"
+  end
+end
 
 def inject method (array)
     array.inject do |sum,x|
